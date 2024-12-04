@@ -16,7 +16,7 @@ def load_database(filename):
         print(f"File {filename} not found")
         return {}
 database = load_database("database.json")
-session = sa.login_by_id(".eJxVT8tOhDAU_RfWiqUv2llO4k6NUTMLN6SPC1SgJVA0g_HfbRM2s7ibc849j99iW2HxaoLiVCitdHAe1cVdEcMAPmHSVBWriFVtKyknTBKgNa4sNjqdpacXfPluXI3R51VcL_vHq-je_T7R5yeTbMbQOX_v5uQkeImpKIUoK4kS1agt9k2Ob5zNSVgmnleJsl_Kd6GJboI9-FztcVvCDA9nWEbnb597tfZJURNOkTYKCdlKUltGMdOIISI5opwzzQhDwETeBms0IQwuO_-EZQB7a6mVSetzqYyBj86o6IIvD2It32AeD_B8iP_-ASivaY4:1tGHns:jMhOtZq3q9ehzzSWfhl9vBR_ILM", username="ababoin07")
+session = sa.login_by_id("SESSION UID")
 cloud = session.connect_cloud("1103966178")
 client = cloud.requests()
 @client.request
